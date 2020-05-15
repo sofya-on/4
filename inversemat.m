@@ -1,7 +1,7 @@
 function retval = inversemat (matrix1)
   len = length(matrix1);
   if (abs(det(matrix1)) < 0.0000000000001)
-    retval = "Íå ñóùåñòâóåò";
+    retval = "не существует";
     return;
   else
     matrix1(1,1) = 1/matrix1(1,1);
