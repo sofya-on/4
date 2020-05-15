@@ -1,4 +1,4 @@
-function retval = LABA4_2 (matrix1)
+function retval = inversemat (matrix1)
   len = length(matrix1);
   if (abs(det(matrix1)) < 0.0000000000001)
     retval = "Íå ñóùåñòâóåò";
