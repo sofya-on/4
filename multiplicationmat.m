@@ -1,4 +1,4 @@
-function retval = L4N1 (matrix1, matrix2)
+function retval = multiplicationmat (matrix1, matrix2)
   size1 = size(matrix1);
   size2 = size(matrix2);
  
