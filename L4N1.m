@@ -1,13 +1,3 @@
-## Copyright (C) 2020 Olga Chernova
-
-#GNU Octave, version 5.2.0
-#Copyright (C) 2020 John W. Eaton and others.
-#This is free software; see the source code for copying conditions.
-#There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
-#FITNESS FOR A PARTICULAR PURPOSE.  For details, type 'warranty'.
-
-#Octave was configured for "x86_64-w64-mingw32".
-
 function retval = L4N1 (matrix1, matrix2)
   size1 = size(matrix1);
   size2 = size(matrix2);
