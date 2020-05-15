@@ -13,10 +13,10 @@ function retval = multiplicationmat (matrix1, matrix2)
     MB2_1 = matrix2(floor(size2(1)/2)+1:size2(1), 1:floor(size2(2)/2));
     MB2_2 = matrix2(floor(size2(1)/2)+1:size2(1), floor(size2(2)/2)+1:size2(2));
     
-    matrixrez1_1 = multiplicationmat(MA1_1, MB1_1)+ multiplicationmat(MA1_2,MB2_1);
+    matrixrez1_1 = multiplicationmat(MA1_1, MB1_1) + multiplicationmat(MA1_2,MB2_1);
     matrixrez1_2 = multiplicationmat(MA1_1,MB1_2) + multiplicationmat(MA1_2, MB2_2);
-    matrixrez2_1 = multiplicationmat(MA2_1,MB1_1)+multiplicationmat(MA2_2,MB2_1);
-    matrixrez2_2 = multiplicationmat(MA2_1,MB1_2) +multiplicationmat(MA2_2,MB2_2);  
+    matrixrez2_1 = multiplicationmat(MA2_1,MB1_1) + multiplicationmat(MA2_2,MB2_1);
+    matrixrez2_2 = multiplicationmat(MA2_1,MB1_2) + multiplicationmat(MA2_2,MB2_2);  
     tmp1 = [matrixrez1_1,matrixrez1_2];
     tmp2 = [matrixrez2_1,matrixrez2_2];
     retval = [tmp1; tmp2];
